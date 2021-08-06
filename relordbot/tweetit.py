@@ -57,11 +57,3 @@ for tweet in limit_handler(tweepy.Cursor(api.search, search_string).items(number
 
 
 
-
-
-"""public_tweets = api.home_timeline()
-for tweet in public_tweets:
-    print(tweet.text)
-
-print(user.screen_name)
-print(user.followers_count)"""
